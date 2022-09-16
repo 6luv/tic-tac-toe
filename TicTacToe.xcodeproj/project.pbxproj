@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A57A34528CF6D9600B5CD8B /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A34428CF6D9600B5CD8B /* sound.mp3 */; };
+		2A57A35628CFAE1700B5CD8B /* NanumBarunpenR.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A35228CFAE1600B5CD8B /* NanumBarunpenR.otf */; };
+		2A57A35728CFAE1700B5CD8B /* NanumBarunpenB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A35328CFAE1600B5CD8B /* NanumBarunpenB.ttf */; };
+		2A57A35828CFAE1700B5CD8B /* NanumBarunpenB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A35428CFAE1600B5CD8B /* NanumBarunpenB.otf */; };
+		2A57A35928CFAE1700B5CD8B /* NanumBarunpenR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A35528CFAE1700B5CD8B /* NanumBarunpenR.ttf */; };
+		2A57A35B28CFB53D00B5CD8B /* BMJUA_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A35A28CFB53D00B5CD8B /* BMJUA_otf.otf */; };
+		2A57A35D28D06A9000B5CD8B /* AiTicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57A35C28D06A9000B5CD8B /* AiTicTacToeViewController.swift */; };
 		2AD01E2F28C9F2F7009BC3E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD01E2E28C9F2F7009BC3E8 /* AppDelegate.swift */; };
 		2AD01E3128C9F2F7009BC3E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD01E3028C9F2F7009BC3E8 /* SceneDelegate.swift */; };
 		2AD01E3328C9F2F7009BC3E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD01E3228C9F2F7009BC3E8 /* ViewController.swift */; };
@@ -16,6 +23,7 @@
 		2AD01E4628C9F2F8009BC3E8 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD01E4528C9F2F8009BC3E8 /* TicTacToeTests.swift */; };
 		2AD01E5028C9F2F8009BC3E8 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD01E4F28C9F2F8009BC3E8 /* TicTacToeUITests.swift */; };
 		2AD01E5228C9F2F8009BC3E8 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD01E5128C9F2F8009BC3E8 /* TicTacToeUITestsLaunchTests.swift */; };
+		2AD01E6528C9F90E009BC3E8 /* TicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD01E6428C9F90E009BC3E8 /* TicTacToeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A57A34428CF6D9600B5CD8B /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		2A57A35228CFAE1600B5CD8B /* NanumBarunpenR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunpenR.otf; sourceTree = "<group>"; };
+		2A57A35328CFAE1600B5CD8B /* NanumBarunpenB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunpenB.ttf; sourceTree = "<group>"; };
+		2A57A35428CFAE1600B5CD8B /* NanumBarunpenB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunpenB.otf; sourceTree = "<group>"; };
+		2A57A35528CFAE1700B5CD8B /* NanumBarunpenR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunpenR.ttf; sourceTree = "<group>"; };
+		2A57A35A28CFB53D00B5CD8B /* BMJUA_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA_otf.otf; sourceTree = "<group>"; };
+		2A57A35C28D06A9000B5CD8B /* AiTicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiTicTacToeViewController.swift; sourceTree = "<group>"; };
 		2AD01E2B28C9F2F7009BC3E8 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD01E2E28C9F2F7009BC3E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AD01E3028C9F2F7009BC3E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,7 @@
 		2AD01E4B28C9F2F8009BC3E8 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD01E4F28C9F2F8009BC3E8 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		2AD01E5128C9F2F8009BC3E8 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AD01E6428C9F90E009BC3E8 /* TicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +92,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A57A34328CF6D5D00B5CD8B /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				2A57A34428CF6D9600B5CD8B /* sound.mp3 */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		2A57A34628CFA52F00B5CD8B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2A57A35A28CFB53D00B5CD8B /* BMJUA_otf.otf */,
+				2A57A35428CFAE1600B5CD8B /* NanumBarunpenB.otf */,
+				2A57A35328CFAE1600B5CD8B /* NanumBarunpenB.ttf */,
+				2A57A35228CFAE1600B5CD8B /* NanumBarunpenR.otf */,
+				2A57A35528CFAE1700B5CD8B /* NanumBarunpenR.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		2AD01E2228C9F2F7009BC3E8 = {
 			isa = PBXGroup;
 			children = (
+				2A57A34628CFA52F00B5CD8B /* Font */,
+				2A57A34328CF6D5D00B5CD8B /* Resouces */,
 				2AD01E2D28C9F2F7009BC3E8 /* TicTacToe */,
 				2AD01E4428C9F2F8009BC3E8 /* TicTacToeTests */,
 				2AD01E4E28C9F2F8009BC3E8 /* TicTacToeUITests */,
@@ -102,6 +140,8 @@
 				2AD01E2E28C9F2F7009BC3E8 /* AppDelegate.swift */,
 				2AD01E3028C9F2F7009BC3E8 /* SceneDelegate.swift */,
 				2AD01E3228C9F2F7009BC3E8 /* ViewController.swift */,
+				2AD01E6428C9F90E009BC3E8 /* TicTacToeViewController.swift */,
+				2A57A35C28D06A9000B5CD8B /* AiTicTacToeViewController.swift */,
 				2AD01E3428C9F2F7009BC3E8 /* Main.storyboard */,
 				2AD01E3728C9F2F8009BC3E8 /* Assets.xcassets */,
 				2AD01E3928C9F2F8009BC3E8 /* LaunchScreen.storyboard */,
@@ -231,8 +271,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A57A34528CF6D9600B5CD8B /* sound.mp3 in Resources */,
 				2AD01E3B28C9F2F8009BC3E8 /* LaunchScreen.storyboard in Resources */,
 				2AD01E3828C9F2F8009BC3E8 /* Assets.xcassets in Resources */,
+				2A57A35728CFAE1700B5CD8B /* NanumBarunpenB.ttf in Resources */,
+				2A57A35928CFAE1700B5CD8B /* NanumBarunpenR.ttf in Resources */,
+				2A57A35628CFAE1700B5CD8B /* NanumBarunpenR.otf in Resources */,
+				2A57A35828CFAE1700B5CD8B /* NanumBarunpenB.otf in Resources */,
+				2A57A35B28CFB53D00B5CD8B /* BMJUA_otf.otf in Resources */,
 				2AD01E3628C9F2F7009BC3E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +306,9 @@
 			files = (
 				2AD01E3328C9F2F7009BC3E8 /* ViewController.swift in Sources */,
 				2AD01E2F28C9F2F7009BC3E8 /* AppDelegate.swift in Sources */,
+				2A57A35D28D06A9000B5CD8B /* AiTicTacToeViewController.swift in Sources */,
 				2AD01E3128C9F2F7009BC3E8 /* SceneDelegate.swift in Sources */,
+				2AD01E6528C9F90E009BC3E8 /* TicTacToeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +485,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YQ8LV2U2L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +493,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +514,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YQ8LV2U2L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,6 +522,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

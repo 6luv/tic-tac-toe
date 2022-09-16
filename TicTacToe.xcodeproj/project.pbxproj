@@ -12,7 +12,6 @@
 		2A57A35728CFAE1700B5CD8B /* NanumBarunpenB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A35328CFAE1600B5CD8B /* NanumBarunpenB.ttf */; };
 		2A57A35828CFAE1700B5CD8B /* NanumBarunpenB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A35428CFAE1600B5CD8B /* NanumBarunpenB.otf */; };
 		2A57A35928CFAE1700B5CD8B /* NanumBarunpenR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A35528CFAE1700B5CD8B /* NanumBarunpenR.ttf */; };
-		2A57A35B28CFB53D00B5CD8B /* BMJUA_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A57A35A28CFB53D00B5CD8B /* BMJUA_otf.otf */; };
 		2A57A35D28D06A9000B5CD8B /* AiTicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57A35C28D06A9000B5CD8B /* AiTicTacToeViewController.swift */; };
 		2AD01E2F28C9F2F7009BC3E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD01E2E28C9F2F7009BC3E8 /* AppDelegate.swift */; };
 		2AD01E3128C9F2F7009BC3E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD01E3028C9F2F7009BC3E8 /* SceneDelegate.swift */; };
@@ -49,7 +48,6 @@
 		2A57A35328CFAE1600B5CD8B /* NanumBarunpenB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunpenB.ttf; sourceTree = "<group>"; };
 		2A57A35428CFAE1600B5CD8B /* NanumBarunpenB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunpenB.otf; sourceTree = "<group>"; };
 		2A57A35528CFAE1700B5CD8B /* NanumBarunpenR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunpenR.ttf; sourceTree = "<group>"; };
-		2A57A35A28CFB53D00B5CD8B /* BMJUA_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA_otf.otf; sourceTree = "<group>"; };
 		2A57A35C28D06A9000B5CD8B /* AiTicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiTicTacToeViewController.swift; sourceTree = "<group>"; };
 		2AD01E2B28C9F2F7009BC3E8 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD01E2E28C9F2F7009BC3E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 		2A57A34628CFA52F00B5CD8B /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				2A57A35A28CFB53D00B5CD8B /* BMJUA_otf.otf */,
 				2A57A35428CFAE1600B5CD8B /* NanumBarunpenB.otf */,
 				2A57A35328CFAE1600B5CD8B /* NanumBarunpenB.ttf */,
 				2A57A35228CFAE1600B5CD8B /* NanumBarunpenR.otf */,
@@ -278,7 +275,6 @@
 				2A57A35928CFAE1700B5CD8B /* NanumBarunpenR.ttf in Resources */,
 				2A57A35628CFAE1700B5CD8B /* NanumBarunpenR.otf in Resources */,
 				2A57A35828CFAE1700B5CD8B /* NanumBarunpenB.otf in Resources */,
-				2A57A35B28CFB53D00B5CD8B /* BMJUA_otf.otf in Resources */,
 				2AD01E3628C9F2F7009BC3E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

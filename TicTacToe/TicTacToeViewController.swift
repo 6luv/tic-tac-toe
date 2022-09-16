@@ -199,6 +199,7 @@ class TicTacToeViewController: UIViewController {
     
     func resultAlert(title: String) {
         let message = "\n" + userList[0] + " : " + String(firstScore) + "점" + "\n\n" + userList[1] + " : " + String(secondScore) + "점"
+        
         let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: { (_) in
             self.resetBoard()
@@ -211,6 +212,7 @@ class TicTacToeViewController: UIViewController {
             button.setTitle(nil, for: .normal)
             button.isEnabled = true
         }
+        
         if(firstTurn == Turn.FirstPlayer) {
             userLabel.text = userList[1]
             firstTurn = Turn.SecondPlayer
@@ -236,6 +238,7 @@ class TicTacToeViewController: UIViewController {
     
     func addToBoard(_ sender: UIButton) {
         playSound()
+        
         if(sender.title(for: .normal) == nil) {
             if (currentTurn == Turn.FirstPlayer) {
                 sender.setTitle(FIRSTPLAYER, for: .normal)

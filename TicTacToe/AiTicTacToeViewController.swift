@@ -1,10 +1,3 @@
-//
-//  AiTicTacToeViewController.swift
-//  TicTacToe
-//
-//  Created by 장민주 on 2022/09/13.
-//
-
 import UIKit
 import AVFoundation
 
